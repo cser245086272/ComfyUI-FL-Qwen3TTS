@@ -1,0 +1,16 @@
+{
+  "name": "comfyui-fl-qwen3tts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@comfyorg/comfyui-frontend-types": "^1.35.4",
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.3.5"
+  }
+}
