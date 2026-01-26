@@ -154,6 +154,14 @@ try:
 
     logger.info("FL Qwen3TTS nodes loaded successfully!")
 
+    # ASCII art banner
+    ascii_art = """
+ ⣏⡉ ⡇    ⡎⢱ ⡇⢸ ⣏⡉ ⡷⣸   ⢹⠁ ⢹⠁ ⢎⡑
+ ⠇  ⠧⠤   ⠣⠪ ⠟⠻ ⠧⠤ ⠇⠹   ⠸  ⠸  ⠢⠜
+"""
+    print(f"\033[35m{ascii_art}\033[0m")
+    print("FL Qwen3 TTS Custom Nodes Loaded - Version 1.0.0")
+
 except Exception as e:
     logger.error(f"Failed to load FL Qwen3TTS nodes: {e}")
     import traceback
